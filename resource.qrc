@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/MainWindow/codeBox">
+        <file>SampleCode.cpp</file>
+    </qresource>
+</RCC>
