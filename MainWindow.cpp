@@ -76,7 +76,7 @@ void MainWindow::slot_compileShortcut_activated(){
 
     // construct argument list
     QStringList argumentList;
-    argumentList<<"-pipe"<<"-std=c++11"<<"-Wall"<<""<<tempCppFileName<<"-o"<<tempExecFileName;
+    argumentList<<"-pipe"<<"-std=c++11"<<"-Wall"<<tempCppFileName<<"-o"<<tempExecFileName;
 
     // call system to compile
     compileProcess->start("g++",argumentList);
